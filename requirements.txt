@@ -1,0 +1,7 @@
+
+invoke
+pandas
+
+# https://github.com/JosPolfliet/pandas-profiling
+# http://nbviewer.jupyter.org/github/JosPolfliet/pandas-profiling/blob/master/examples/meteorites.ipynb
+pandas-profiling

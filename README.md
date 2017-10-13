@@ -21,8 +21,10 @@ Please clone the repository and obtain the data by executing:
 
 # Authors
 
-* François Modave
-* Andrei Sura
-* Ronald Canepa
-* Tianyao Huo
-* Yan Gong
+Tianyao Huo<sup>1</sup>; Ronald Canepa<sup>2</sup>; Andrei Sura<sup>1</sup>; 
+François Modave<sup>1</sup>; Yan Gong<sup>3,4</sup>
+
+1. Department of Health Outcomes & Biomedical Informatics, College of Medicine, University of Florida, Gainesville, Florida, United States of America
+2. Information Technology and Services, University of Florida, Gainesville, Florida, United States of America
+3. Department of Pharmacotherapy and Translational Research and Center for Pharmacogenomics, College of Pharmacy, University of Florida, Gainesville, Florida, United States of America
+4. UF Health Cancer Center, Gainesville, Florida, United States of America

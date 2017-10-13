@@ -21,6 +21,7 @@ Please clone the repository and obtain the data by executing:
 
 # Authors
 
+* François Modave
 * Andrei Sura
 * Ronald Canepa
 * Tianyao Huo

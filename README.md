@@ -14,9 +14,9 @@ Please clone the repository and obtain the data by executing:
     $ virtualenv crc -p `which python3`
     $ source ./crc/bin/activate
     $ pip install -r requirements.txt
-    $ inv download_data
-    $ inv extract_data
-    $ inv describe_data
+    $ inv download-data
+    $ inv extract-data
+    $ inv describe-data
 
 
 # Authors

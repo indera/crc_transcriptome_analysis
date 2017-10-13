@@ -12,7 +12,7 @@ Race, Ethnicity, Stage
 """
 import pandas as pd
 import numpy as np  # noqa
-import pandas_profiling as pd_prof  # noqa
+# import pandas_profiling as pd_prof  # noqa
 
 # from tasks import FILE_EXPR, FILE_CLIN  # noqa
 FILE_EXPR = 'data/expr/COADREAD.rnaseqv2__illuminahiseq_rnaseqv2__unc_edu__Level_3__RSEM_genes_normalized__data.data.txt'  # noqa
@@ -32,10 +32,14 @@ def show_clin():
     """
     print("Reading file: {}".format(FILE_CLIN))
     df_clin = pd.read_csv(FILE_CLIN, sep="\t")
-    print("Clinical data is available for"
+    print("Clinical data stats:")
+    print(df_clin.describe())
+
 
     print("Reading file: {}".format(FILE_BIOSPECIMEN))
-    print(df.describe())
+    df_bio = pd.read_csv(FILE_CLIN, sep="\t")
+    print("Biospecimen data stats:")
+    print(df_bio.describe())
 
     # profile = pd_prof.ProfileReport(df)
     # profile.to_file(outputfile="clin.html")

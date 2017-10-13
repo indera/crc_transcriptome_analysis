@@ -91,3 +91,4 @@ ENV/
 
 # Ignore the folder where we store the data
 data/
+crc/
